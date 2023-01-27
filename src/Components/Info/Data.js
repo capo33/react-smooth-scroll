@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Bank",
+  headLine: "Unlimited Transactions with zero fees",
+  description:
+    "Get access to our exlusive app that allows you to send unlimited transactions with gettings charged any fees.",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: require("../../images/svg-3.svg").default,
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Unlimeted Access",
+  headLine: "Unlimited Transactions with zero fees",
+  description:
+    "Get access to our exlusive app that allows you to send unlimited transactions with gettings charged any fees.",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: require("../../images/svg-4.svg").default,
+  alt: "Car",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Join Our Team",
+  headLine: "Creating an is extremely easy",
+  description:
+    "Get everything set up and ready in under 10 minuts. All you need to do is to add your information and you're reaady to go.",
+  buttonLabel: "Start Now",
+  imgStart: false,
+  img: require("../../images/svg-5.svg").default,
+  alt: "Car",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
